@@ -1,0 +1,178 @@
+
+body{
+  font-size: 22px;
+  transition-duration: 1s;
+  transition-property:all ;
+}
+
+
+
+
+h1{
+  font-size: 60px;
+  text-decoration: underline;
+}
+.main-block{
+  animation-name:main_block ;
+  animation-duration: 3s ;
+  border: 4px olive solid;
+  opacity: 0;
+  display: block;
+  padding-right: 50px;
+  margin-left: calc(50%);
+  transform: translateX(-500px);
+  width: 900px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  animation-fill-mode:forwards ;
+  
+}
+
+
+
+.panner_img{
+  width: 360px;
+  height: 320px;
+  margin-left: 220px;
+}
+
+h1{
+  text-align: center;
+}
+
+.video_title,.description-head,.Ingredients,.Instructions{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 40px;
+  
+}
+
+.one,.two,.three
+{
+ 
+  border:4px olive solid;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+}
+
+
+
+
+
+.up_1,.up_2{
+  width: 350px;
+  height: 360px;
+  margin-left: 80px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.user{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Rating,.fdb{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.bottom-head{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.user_avatar{
+
+  height: 50px;
+
+}
+
+.user_avatar1{
+  height: 60px;
+
+}
+
+.ua{
+  display: inline-block;
+  width: 80px;
+  vertical-align: top;
+  margin-top: 10px;
+  
+
+}
+
+.main{
+  margin-top: 0px;
+  display: inline-block;
+  width:400px;
+ 
+}
+
+.main_1{
+  margin-left: 25px;
+  margin-top: 3px;
+  display: inline-block;
+  width:400px;
+  margin-bottom: 0px;
+}
+
+.add{
+  height: 200px;
+}
+
+.three_head{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.three_img{
+  margin-top: 160px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.three_text{
+  font-weight: bold;
+  font-size: 35px;
+
+}
+
+.three_stext{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+@keyframes main_block{
+  50%{
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 1;
+    
+  }
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+
+}
+
+header{
+  display: inline;
+ 
+  border: 2px solid;
+  background-color: olive;
+  padding: 20px;
+  border-radius: 20px;
+}
