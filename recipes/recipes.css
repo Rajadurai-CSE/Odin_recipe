@@ -1,5 +1,6 @@
 
 body{
+  font-family: 'Amatic SC', cursive;
   font-size: 22px;
   transition-duration: 1s;
   transition-property:all ;
@@ -28,12 +29,23 @@ h1{
   
 }
 
+.link{
+ 
+  cursor: pointer;
+  border: 2px solid;
+  background-color: olive;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+
+}
 
 
 .panner_img{
-  width: 360px;
-  height: 320px;
-  margin-left: 220px;
+  margin-top: 0px;
+  width: 600px;
+  height: 480px;
+  margin-left: 140px;
 }
 
 h1{
@@ -55,12 +67,18 @@ h1{
 .one,.two,.three
 {
  
+  margin-left: 28px;
   border:4px olive solid;
   padding-left: 20px;
   padding-right: 20px;
- 
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
+.one:hover,.two:hover{
+  transform: scale(1.1);
+
+}
 
 
 
@@ -88,6 +106,7 @@ h1{
   font-size: 30px;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .user_avatar{
@@ -169,10 +188,5 @@ h1{
 }
 
 header{
-  display: inline;
- 
-  border: 2px solid;
-  background-color: olive;
-  padding: 20px;
-  border-radius: 20px;
+  
 }

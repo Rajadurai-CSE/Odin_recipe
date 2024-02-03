@@ -1,18 +1,21 @@
 body{
-  font-family: 'Playfair Display', serif;
+    font-family: 'Amatic SC', cursive;
+    padding-bottom: 100px;
+  
 }
 
 .header{
   font-size: 65px;
   text-align: center;
   margin-top: 45px;
+  margin-bottom: 0px;
 }
 
 .sub_header{
   text-decoration: none;
   font-size: 50px;
   text-align: center;
-  margin-top: 45px;
+  margin-top: 15px;
 
 }
 
@@ -27,6 +30,8 @@ body{
   width: 600px;
 }
 
+
+/* 
 .bottom{
   background-color: white;
   border-radius: 25px;
@@ -42,7 +47,7 @@ body{
   font-size: 25px;
   padding-bottom: 100px;
   
-}
+} */
 
 a{
   text-decoration: none;
@@ -55,5 +60,106 @@ li{
 
 .gif{
   width: 100%;
+  height: 400px;
+}
+
+
+.Category{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin-left: calc(50%);
+  transform: translateX(-100px);
+  margin-right: auto;
+  width: 400px;
+}
+
+.Starters{
+  border: black 1px solid;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.Refreshers{
+  border: black 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.paneer_img{
+  width: 600px;
   height: 500px;
+  text-align: center;
+}
+
+
+.paneer_img_block{
+  margin-left: 60px;
+  margin-top: 70px;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  
+}
+.paneer_img_block:hover {
+  transform: scale(1.1);
+  
+   /* Adjust the value as needed */
+}
+
+
+.tandoori_img{
+  
+  width: 600px;
+  height: 501.5px;
+  
+
+}
+
+.paneer_description{
+  margin-top: -3px;
+  border: 2px black solid;
+}
+
+.paneer{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+
+.tandoori{
+  display: inline-block;
+}
+
+.tandoori_img_block{
+  margin-left: 10px;
+  margin-top: 70px;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+
+}
+
+.tandoori_img_block:hover {
+  transform: scale(1.1);
+  
+   /* Adjust the value as needed */
+}
+
+.tandoori_description{
+  margin-top: -5px;
+  border: 2px black solid;
+
+}
+
+.Starters_block{
+  text-align: center;
+}
+
+.inmenu{
+  align-items: center;
+  display: inline;
+  padding: 10px;
+  
 }
